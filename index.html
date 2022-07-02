@@ -50,6 +50,7 @@
         <div id="lead-content">
             <h1>Hi,I'm Hongyang Gao.</h1>
             <h2>你好啊，我是高红阳。</h2>
+            <h2>A Technology Artist</h2>
             <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -254,15 +255,17 @@
     <!-- End #contact -->
 
     <div id="contact">
-        <h2>Leave A Message</h2>
+        <h2>Quick Feedback</h2>
         <div id="contact-form2">
-            <form action="https://formspree.io/f/xeqnbjol" method="POST">
+            <form action="https://formspree.io/f/xeqnbjol" method="POST" id="my-form">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
+                <input type="email" name="_replyto" placeholder="Please leave your email." required>
+                <textarea name="message" placeholder="Write down your advice or what you want to talk." required></textarea>
                 <button type="submit">Send</button>
             </form>
+            <div id="my-form-status" ></div>
         </div>
+        <script src="./js/CancelRedirect.js"></script>
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->

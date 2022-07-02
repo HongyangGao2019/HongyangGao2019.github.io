@@ -624,6 +624,21 @@ footer {
     font-weight: 500
 }
 
+#my-form-status{
+    width: 80%;
+    max-width:500px;
+    text-align: center;
+    padding: 2px;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+/* #my-form-status.success{
+    background-color:rgb(83, 233, 133);
+}
+#my-form-status.error{
+    background-color:rgb(233, 106, 83);
+} */
+
 #contact-form {
     max-width: 500px;
     margin: 0 auto;
